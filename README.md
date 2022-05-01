@@ -22,12 +22,12 @@
 ### Clone the project
 - Open the terminal on your local computer.
 - Navigate to the parent directory of your preference.
-- Clone this project using `$ git clone https://github.com/wowgr8/TravelApi.solution`
-- Navigate to the directory: ```$ cd TravelApi.Solution```
+- Clone this project using `$ git clone https://github.com/wowgr8/AnimalShelter.Solution`
+- Navigate to the directory: ```$ cd AnimalShelter.Solution```
 - Open in Vs code: ```$ code .```
 
 ### Create the database
-- Navigate to TravelApi: ```$ cd TravelApi``` and type the following command in the terminal ```$ touch appsettings.json```
+- Navigate to AnimalShelter: ```$ cd AnimalShelter``` and type the following command in the terminal ```$ touch appsettings.json```
 - Navigate to the appsettings.json file ```$ cd appsettings.json``` and enter:
 ```
 {
@@ -43,7 +43,7 @@
   "AllowedHosts": "*",
   "ConnectionStrings":
   {
-    "DefaultConnection": "Server=localhost;Port=3306;database=travel_api;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+    "DefaultConnection": "Server=localhost;Port=3306;database=animal-shelter;uid=root;pwd=[YOUR-PASSWORD-HERE];"
   }
 }
 ```
